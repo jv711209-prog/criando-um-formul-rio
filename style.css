@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
